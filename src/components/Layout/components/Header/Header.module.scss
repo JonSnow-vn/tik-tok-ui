@@ -10,4 +10,41 @@
 .inner {
     height: 100%;
     width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    padding-left: 16px;
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    width: 361px;
+    height: 46px;
+    align-items: center;
+    position: relative;
+
+    input {
+        flex: 1;
+        background-color: transparent;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+    
+}
+
+.loading-icon,
+.delete-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.search-icon {
+    width: 52px;
+    background-color: transparent;
+    
+    img {
+        width: 24px;
+    }
 }
